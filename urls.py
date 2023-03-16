@@ -58,3 +58,23 @@ urlpatterns = [
     path("api/",include(new_urlpatterns)),
     
 ]
+
+
+
+def func1(b,c):
+   a = b+c
+   return a
+
+func1(2,3)
+
+
+
+
+def func1(b,c):
+   a = b-c
+   return a
+
+func1(20,3)
+
+
+
