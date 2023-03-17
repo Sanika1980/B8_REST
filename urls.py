@@ -78,3 +78,15 @@ func1(20,3)
 
 
 
+
+
+
+def func1(b,c):
+   a = b*c
+   return a
+
+func1(20,3)
+
+
+
+
