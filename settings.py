@@ -103,7 +103,10 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+def func():
+    return "Hello world"
 
+func()
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
